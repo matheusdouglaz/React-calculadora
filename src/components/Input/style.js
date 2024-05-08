@@ -1,28 +1,25 @@
 import styled from 'styled-components';
 
 export const InputContainer = styled.div`
- width 100%;
- height: 75px;
- background-color: #aaaaff;
+  width: 100%;
+  height: auto; /* Altura ajustável */
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 24px;
+  font-family: 'Roboto';
 
- display: flex;
- align-items: center;
- justify-content: flex-end;
-
- font-size: 24px;
- font-family: 'Roboto';
-
- input{
-    width: 100%;
-    height: 75px;
-    background-color: #aaaaff;
-    border: 0;
-    display:flex;
-    flex-direction:column;
-    align-items: flex-end;
-    padding:0 10px;
+  input {
+    width: 90%; /* Largura ajustável */
+    height: 65px; /* Altura fixa */
+    border: none;
+    padding: 0 10px;
     font-size: 24px;
     font-family: 'Roboto';
-    color: #ffffff;
- }
-`   
+    box-sizing: border-box; /* Inclui o padding na largura */
+  }
+`;
+
+
+ 
